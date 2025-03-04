@@ -1,1 +1,4 @@
 streamlit
+bcrypt
+pysqlcipher3
+bcrypt
