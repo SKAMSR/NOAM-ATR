@@ -1,19 +1,55 @@
-# 🎈 Blank app template
+# 📑 מערכת ניהול משתמשים ב-Streamlit
 
-A simple Streamlit app template for you to modify!
+מערכת לניהול משתמשים עם מסד נתונים SQLite, אימות משתמשים, הרשאות מנהל, הקפאת משתמשים, מחיקה ויצוא ל-Excel.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 🚀 איך להריץ את המערכת?
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
+1. **התקנת התלויות**  
+   תחילה, התקן את כל החבילות הנדרשות:
+   ```bash
+   pip install -r requirements.txt
    ```
 
-2. Run the app
+2. **הרצת האפליקציה**  
+   הפעל את המערכת בעזרת הפקודה:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## 🔄 עדכון המאגר ממרחב הקוד (VS Code)
+
+אם ביצעת שינויים בקבצים ורוצה לעדכן אותם ב-GitHub, בצע את הפקודות הבאות:
+
+```bash
+git add .
+git commit -m "עדכון קוד"
+git push origin main
+```
+
+## 🔑 פונקציות עיקריות
+
+✅ **כניסה למערכת** – התחברות עם אימייל וסיסמה.  
+✅ **ניהול משתמשים** – הוספה, עריכה, מחיקה והקפאת משתמשים.  
+✅ **הרשאות מנהל** – שליטה על תפקידי המשתמשים.  
+✅ **אבטחה** – שמירת סיסמאות מוצפנות במסד הנתונים.  
+✅ **יצוא נתונים** – יצוא רשימת המשתמשים לקובץ Excel.  
+
+## 📂 מבנה הפרויקט
+
+```
+/NOAM-ATR
+./.gitignore           # קובץ הגדרת קבצים לא מעקב ב-Git
+./LICENSE              # רישיון השימוש
+./streamlit_app.py     # הקובץ הראשי של האפליקציה
+./requirements.txt     # רשימת הספריות הנדרשות
+./database.py          # פונקציות לניהול מסד הנתונים
+./README.md            # מדריך זה
+./users.db             # מסד הנתונים (נוצר אוטומטית)
+
+```
+
+## 🛠️ פיתוח ותרומה
+
+אם ברצונך לתרום לפיתוח המערכת, ניתן לבצע Fork למאגר, לערוך את הקוד ולהגיש Pull Request.  
+
+✨ בהצלחה! 🚀
