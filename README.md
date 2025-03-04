@@ -38,11 +38,14 @@ git push origin main
 
 ```
 /NOAM-ATR
-│── database.py         # פונקציות לניהול מסד הנתונים
-│── streamlit_app.py    # הקובץ הראשי של האפליקציה
-│── requirements.txt    # רשימת הספריות הנדרשות
-│── README.md           # מדריך זה
-│── users.db            # מסד הנתונים (נוצר אוטומטית)
+./.gitignore           # קובץ הגדרת קבצים לא מעקב ב-Git
+./LICENSE              # רישיון השימוש
+./streamlit_app.py     # הקובץ הראשי של האפליקציה
+./requirements.txt     # רשימת הספריות הנדרשות
+./database.py          # פונקציות לניהול מסד הנתונים
+./README.md            # מדריך זה
+./users.db             # מסד הנתונים (נוצר אוטומטית)
+
 ```
 
 ## 🛠️ פיתוח ותרומה
